@@ -1,0 +1,56 @@
+.filter {
+  box-shadow: 0 0 3px gray;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+
+.transaction-form label {
+  color: black;
+}
+
+.transaction-form input {
+  border: 1px solid black;
+}
+
+.transaction-form input:focus {
+  border: 1px solid black;
+}
+
+.ant-select-selector {
+  border: 1px solid black !important;
+}
+.ant-select-selector:focus {
+  border: 1px solid black !important;
+}
+
+.view-switch{
+     border: 1px solid rgba(0, 0, 0, 0.812); 
+     padding: 5.5px 10px!important;
+     border-radius: 3px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+  
+}
+
+.inactive-icon{
+  color: grey;
+
+}
+
+.ant-picker-range{
+  border: 1px solid black;
+}
+
+@media screen and (max-width:600px){
+  .filter{
+    overflow-x: scroll !important;
+  }
+  
+}
