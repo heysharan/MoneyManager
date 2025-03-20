@@ -1,14 +1,14 @@
 const mongoose = require("mongoose");
 
 const transactionSchema = new mongoose.Schema({
-  userid: { type: String, required: true },
-  amount: { type: Number, required: true },
-  divisions: { type: String, required: true },
-  type: { type: String, required: true },
-  category: { type: String, required: true },
-  date: { type: Date, required: true },
-  reference: { type: String, required: true },
-  description: { type: String, required: true },
+  userid: { type: String },
+  amount: { type: Number },
+  divisions: { type: String },
+  type: { type: String },
+  category: { type: String },
+  date: { type: Date },
+  reference: { type: String },
+  description: { type: String },
 });
 
 const transactionModel = mongoose.model("Transactions", transactionSchema);
