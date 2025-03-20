@@ -6,11 +6,7 @@ const path = require('path')
 const userRoute = require("./routes/usersRoute");
 const transactionsRoute = require("./routes/transactionsRoute");
 const cors = require("cors");
-app.use(cors({
-    origin: "https://budget.cmsharan.com",  // Allow frontend domain
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-}));
+app.use(cors());
 
 
 app.use("/api/users/", userRoute);
